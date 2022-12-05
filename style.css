@@ -1,0 +1,35 @@
+.fetchBtn {
+  width: 150px;
+  height: 60px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items:flex-start;
+  margin-top: 20px;
+}
+
+.user {
+  background-color: #FFFFFF;
+  height: 300px;
+  width: 170px;
+  border: 1px solid lightblue;
+  margin: 0 10px 10px 0;
+}
+
+.user img {
+  width: 150px;
+  padding: 10px;
+}
+
+.user .info {
+  padding-left: 10px;
+}
