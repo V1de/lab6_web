@@ -5,8 +5,6 @@ function onClick() {
     })
     .then((data) => {
       let user = document.querySelector('.container');
-      console.log(user);
-      console.log(createUserHTML(data.results[0]));
       user.innerHTML += createUserHTML(data.results[0]);
     })
     .catch((error) => {
